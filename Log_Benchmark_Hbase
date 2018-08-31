@@ -1,1 +1,33 @@
+Command line: -load -db com.yahoo.ycsb.db.HBaseClient10 -P workloads/workloada -p columnfamily=family -p table=usertable
+YCSB Client 0.14.0
 
+Loading workload...
+log4j:WARN No appenders could be found for logger (org.apache.htrace.core.Tracer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[OVERALL], RunTime(ms), 2518
+[OVERALL], Throughput(ops/sec), 397.1405877680699
+[TOTAL_GCS_PS_Scavenge], Count, 6
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 26
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 1.0325655281969817
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 6
+[TOTAL_GC_TIME], Time(ms), 26
+[TOTAL_GC_TIME_%], Time(%), 1.0325655281969817
+[CLEANUP], Operations, 2
+[CLEANUP], AverageLatency(us), 59827.5
+[CLEANUP], MinLatency(us), 7
+[CLEANUP], MaxLatency(us), 119679
+[CLEANUP], 95thPercentileLatency(us), 119679
+[CLEANUP], 99thPercentileLatency(us), 119679
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 1606.612
+[INSERT], MinLatency(us), 645
+[INSERT], MaxLatency(us), 92671
+[INSERT], 95thPercentileLatency(us), 4055
+[INSERT], 99thPercentileLatency(us), 8359
+[INSERT], Return=OK, 1000
