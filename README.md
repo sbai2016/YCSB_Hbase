@@ -65,8 +65,11 @@ cd hadoop-2.7.7/bin
 ./hadoop verison 
 ```
 ## Teste de performance de Hbase 
+
 ```sh
 ./ycsb load hbase10 -P workloads/workloada -p columnfamily=f1 -p recordcount=1000000 -threads 10 -s > new-A-load-1M.dat
 ./bin/ycsb.sh load hbase10 -P workloads/workloada -p columnfamily=f1 -p recordcount=1000000 -threads 10 -s > new-A-load-1M.dat
+./bin/ycsb.sh run hbase10 -P workloads/workloada -p columnfamily=f1 -p recordcount=1000000 -threads 10 -s > new-A-load-1M.dat
 ./bin/ycsb.sh load hbase10 -P workloads/workloada -p columnfamily=family
+./bin/ycsb.sh run hbase10 -P workloads/workloada -p columnfamily=family
 ```
