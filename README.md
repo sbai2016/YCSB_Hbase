@@ -19,12 +19,12 @@ cd ycsb-0.14.0
 ## Run YCSB
 
 Run YCSB command
-On Linux: 
+Pour Linux: 
 ```sh
 ./bin/ycsb.sh load basic -P workloads/workloada
 ./bin/ycsb.sh run basic -P workloads/workloada
 ```
-On Windows:
+Pour Windows:
 ```bat
 ./bin/ycsb.bat load basic -P workloads\workloada
 ./bin/ycsb.bat run basic -P workloads\workloada
