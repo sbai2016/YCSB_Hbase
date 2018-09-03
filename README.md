@@ -19,6 +19,7 @@ cd ycsb-0.14.0
 ## Run YCSB
 
 Run YCSB command
+
 Pour Linux: 
 ```sh
 ./bin/ycsb.sh load basic -P workloads/workloada
